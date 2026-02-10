@@ -1,0 +1,197 @@
+/* 🎨 THEME VARIABLES — Forest Green Palette */
+:root {
+  --primary: #166534;        /* Deep Forest Green */
+  --secondary: #22c55e;      /* Fresh Leaf Green */
+  --accent: #65a30d;         /* Moss Green */
+  --bg: #f3f7f2;             /* Light nature background */
+  --card-bg: #ffffff;        /* White card */
+  --text: #1f2d22;           /* Deep forest charcoal */
+  --muted: #6b7f6b;          /* Muted green-gray */
+  --border: #d4e4d3;         /* Soft green border */
+  --shadow: 0 6px 16px rgba(22, 101, 52, 0.15);
+  --radius: 12px;
+  --transition: 0.25s ease;
+
+  /* Forest Gradient */
+  --gradient: linear-gradient(
+      135deg,
+      #166534 0%,
+      #22c55e 40%,
+      #65a30d 100%
+  );
+}
+
+/* 🌙 DARK MODE — Forest Green Dark */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #4ade80;       /* Light nature green */
+    --secondary: #86efac;     /* Mint leaf */
+    --accent: #a3e635;        /* Lime green */
+    --bg: #0c1912;            /* Forest night */
+    --card-bg: #142419;       /* Moss card */
+    --text: #e8f8f0;          /* Pale mint */
+    --muted: #9bbfa8;
+    --border: #2a3e31;
+    --shadow: 0 6px 20px rgba(34,197,94,0.35);
+
+    --gradient: linear-gradient(
+        135deg,
+        #4ade80 0%,
+        #86efac 40%,
+        #a3e635 100%
+    );
+  }
+}
+
+/* GLOBAL STYLES */
+* {
+  box-sizing: border-box;
+  transition: all var(--transition);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* LINKS */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* NAV BAR */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 14px 24px;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  box-shadow: var(--shadow);
+  z-index: 100;
+}
+
+.nav h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary);
+  margin: 0;
+}
+
+/* CARD */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+/* BUTTON */
+.btn {
+  background: var(--gradient);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: var(--shadow);
+  transition: background var(--transition), transform var(--transition);
+}
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.95;
+}
+
+/* INPUTS */
+.input, .select, .textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text);
+  outline: none;
+  font-size: 15px;
+}
+.input:focus, .select:focus, .textarea:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 3px rgba(34,197,94,0.25);
+}
+
+/* TABLE */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  table-layout: fixed;
+}
+
+.table th,
+.table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  word-wrap: break-word;
+}
+
+.table th:not(:last-child),
+.table td:not(:last-child) {
+  border-right: 1px solid var(--border);
+}
+
+.table th {
+  background: var(--gradient);
+  color: #fff;
+  font-weight: 600;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:hover td {
+  background: rgba(34,197,94,0.08);
+}
+
+/* TOOLBAR */
+.toolbar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
