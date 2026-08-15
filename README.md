@@ -439,29 +439,20 @@ MongoDB Atlas is used as the production database for storing:
 
 🎓 **B.E. Artificial Intelligence & Machine Learning**
 
-💻 **Full-Stack Developer**
-🤖 **AI & ML Enthusiast**
+💻 **Full-Stack Developer** • 🤖 **AI & ML Enthusiast**
 
 ### 🌐 Connect With Me
 
-<p align="center">
-
-<a href="https://www.linkedin.com/in/devaraja-katti-58136a2a1/">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-  
-
-<a href="https://github.com/DevKatti7560">
-<img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-  
-
-<a href="https://innovation-entrepreneurship-git-554848-devaraja-kattis-projects.vercel.app">
-<img src="https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-
+<p align="left">
+  <a href="https://www.linkedin.com/in/devaraja-katti-58136a2a1/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/DevKatti7560" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://innovation-entrepreneurship-git-554848-devaraja-kattis-projects.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit-00C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  </a>
 </p>
 
 ---
@@ -480,14 +471,10 @@ If you found this project useful or interesting:
 
 <p align="center">
 
-🌟 <b>Thank you for visiting this project!</b>
+<b>🚀 Built with React • Node.js • Express • MongoDB</b>
 
 <br><br>
 
-🚀 <b>Built with React • Node.js • Express • MongoDB</b>
-
-<br><br>
-
-💡 <b>Innovate • Build • Manage • Grow</b>
+<b>💡 Innovate • Build • Manage • Grow</b>
 
 </p>
