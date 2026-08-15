@@ -10,17 +10,21 @@
 </p>
 
 <p align="center">
-  <b>A full-stack dashboard for managing Innovation & Entrepreneurship activities.</b>
+  <b>🚀 A full-stack dashboard for managing Innovation & Entrepreneurship activities.</b>
 </p>
 
 <p align="center">
-  <a href="https://innovation-entrepreneurship-git-554848-devaraja-kattis-projects.vercel.app">
-    🌐 Live Demo
+  🌐 <a href="https://innovation-entrepreneurship-git-554848-devaraja-kattis-projects.vercel.app">
+    <b>Live Demo</b>
   </a>
   &nbsp; • &nbsp;
-  <a href="https://github.com/DevKatti7560/innovation-entrepreneurship-dashboard">
-    📂 GitHub Repository
+  📂 <a href="https://github.com/DevKatti7560/innovation-entrepreneurship-dashboard">
+    <b>GitHub Repository</b>
   </a>
+</p>
+
+<p align="center">
+  ⭐ <b>Star the repository if you find this project useful!</b>
 </p>
 
 ---
@@ -31,11 +35,11 @@ The **Innovation & Entrepreneurship Activity Dashboard** is a full-stack web app
 
 The platform provides a centralized system for students, mentors, and administrators to manage:
 
-* 💡 Innovation ideas
+* 💡 Innovation Ideas
 * 📅 Events
-* 💰 Funding information
-* 📊 Activity metrics
-* 👥 Role-based activities
+* 💰 Funding Information
+* 📊 Activity Metrics
+* 👥 Role-Based Activities
 
 The application uses **JWT authentication** and **role-based access control** to provide a secure and organized platform.
 
@@ -45,43 +49,43 @@ The application uses **JWT authentication** and **role-based access control** to
 
 ### 🔐 Authentication
 
-* User registration and login
-* JWT-based authentication
-* Password hashing with bcrypt
-* Protected routes
-* Role-based authorization
+* 👤 User registration and login
+* 🔑 JWT-based authentication
+* 🔒 Password hashing with bcrypt
+* 🛡️ Protected routes
+* 👥 Role-based authorization
 
 ### 💡 Idea Management
 
-* Submit innovation ideas
-* View submitted ideas
-* Track idea status
-* Mentor/Admin evaluation
-* Funding information
-* CRUD operations
+* 📝 Submit innovation ideas
+* 👀 View submitted ideas
+* 📈 Track idea status
+* 🧑‍🏫 Mentor/Admin evaluation
+* 💰 Funding information
+* 🔄 CRUD operations
 
 ### 📅 Event Management
 
-* View upcoming events
-* Create and manage events
-* Event registration
-* Event information management
+* 📆 View upcoming events
+* ➕ Create and manage events
+* 🎟️ Event registration
+* ℹ️ Event information management
 
 ### 📊 Dashboard
 
-* Upcoming events
-* Total funding
-* Innovation activity metrics
-* Idea statistics
-* Centralized dashboard
+* 📅 Upcoming events
+* 💰 Total funding
+* 📈 Innovation activity metrics
+* 💡 Idea statistics
+* 🗂️ Centralized dashboard
 
 ### 👥 User Roles
 
-| Role         | Access                                          |
-| ------------ | ----------------------------------------------- |
-| 🎓 Student   | Submit ideas, view events, and track activities |
-| 🧑‍🏫 Mentor | Review ideas and manage activities              |
-| 👨‍💼 Admin  | Manage ideas, events, and platform activities   |
+| 🎭 Role          | 🔑 Access                                       |
+| ---------------- | ----------------------------------------------- |
+| 🎓 **Student**   | Submit ideas, view events, and track activities |
+| 🧑‍🏫 **Mentor** | Review ideas and manage activities              |
+| 👨‍💼 **Admin**  | Manage ideas, events, and platform activities   |
 
 ---
 
@@ -115,257 +119,72 @@ The application uses **JWT authentication** and **role-based access control** to
 
 ## 🛠️ Tech Stack
 
-### Frontend
+### 🎨 Frontend
 
-* React 18
-* Vite
-* React Router
-* Axios
-* CSS
+* ⚛️ React 18
+* ⚡ Vite
+* 🧭 React Router
+* 🔗 Axios
+* 🎨 CSS
 
-### Backend
+### ⚙️ Backend
 
-* Node.js
-* Express.js
-* JWT
-* bcrypt
-* Mongoose
-* CORS
+* 🟢 Node.js
+* 🚂 Express.js
+* 🔐 JWT
+* 🔒 bcrypt
+* 🍃 Mongoose
+* 🌐 CORS
 
-### Database
+### 🗄️ Database
 
-* MongoDB
-* MongoDB Atlas
+* 🍃 MongoDB
+* ☁️ MongoDB Atlas
 
-### Deployment
+### ☁️ Deployment
 
-* Vercel — Frontend
-* Render — Backend
-* MongoDB Atlas — Database
-
----
-
-## 📂 Project Structure
-
-```text
-innovation-entrepreneurship-dashboard/
-│
-├── backend/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── middleware/
-│   │   ├── models/
-│   │   └── routes/
-│   │
-│   ├── app.js
-│   ├── server.js
-│   ├── seed.js
-│   ├── package.json
-│   └── .env.example
-│
-├── frontend/
-│   ├── src/
-│   │   ├── auth/
-│   │   ├── lib/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── styles.css
-│   │
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-│
-├── screenshots/
-│   ├── dashboard.png
-│   ├── events.png
-│   ├── ideas.png
-│   └── login.png
-│
-├── .gitignore
-└── README.md
-```
+* ▲ Vercel — Frontend
+* 🚀 Render — Backend
+* 🍃 MongoDB Atlas — Database
 
 ---
 
-# ⚙️ Installation
+## 👨‍💻 Author
 
-## 1. Clone the Repository
+### 👋 Devaraja Katti
 
-```bash
-git clone https://github.com/DevKatti7560/innovation-entrepreneurship-dashboard.git
-cd innovation-entrepreneurship-dashboard
-```
+🎓 **B.E. Artificial Intelligence & Machine Learning**
 
----
+💻 **Full-Stack Developer** • 🤖 **AI & ML Enthusiast**
 
-## 2. Backend Setup
+### 🌐 Connect With Me
 
-Navigate to the backend directory:
-
-```bash
-cd backend
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Create a `.env` file inside the `backend` directory:
-
-```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-PORT=5000
-```
-
-### Seed the Database
-
-```bash
-npm run seed
-```
-
-### Start the Backend
-
-```bash
-npm run dev
-```
-
-The backend will run at:
-
-```text
-http://localhost:5000
-```
-
----
-
-## 3. Frontend Setup
-
-Open a **new terminal** and navigate to the frontend directory:
-
-```bash
-cd frontend
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the frontend:
-
-```bash
-npm run dev
-```
-
-The frontend will run at:
-
-```text
-http://localhost:5173
-```
-
-> ⚠️ **Important:** Never commit your `.env` file or expose your MongoDB credentials and JWT secret.
-
----
-
-# 🔑 Demo Credentials
-
-The application provides demo accounts for testing different user roles.
-
-### 🎓 Student
-
-```text
-Email: student@dashboard.test
-Password: student123
-```
-
-### 🧑‍🏫 Mentor
-
-```text
-Email: mentor@dashboard.test
-Password: mentor123
-```
-
-### 👨‍💼 Admin
-
-```text
-Email: admin@dashboard.test
-Password: admin123
-```
-
-> These credentials are provided for demonstration purposes.
-
----
-
-# ☁️ Deployment
-
-The application is deployed using:
-
-* **Vercel** — Frontend
-* **Render** — Backend
-* **MongoDB Atlas** — Database
-
-### Deployment Architecture
-
-```text
-                         GitHub
-                            │
-                 ┌──────────┴──────────┐
-                 │                     │
-                 ▼                     ▼
-            ▲ Vercel              🚀 Render
-            Frontend               Backend
-                 │                     │
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                    🍃 MongoDB Atlas
-                        Database
-```
-
----
-
-## 🌐 Live Demo
-
-### Frontend — Vercel
-
-🔗 https://innovation-entrepreneurship-git-554848-devaraja-kattis-projects.vercel.app
-
-### Backend — Render
-
-🔗 https://innovation-entrepreneurship-dashboard.onrender.com
-
-### Database — MongoDB Atlas
-
-MongoDB Atlas is used as the production database for storing application data.
-
----
-
-# 👨‍💻 Author
-
-## Devaraja Katti
-
-**B.E. Artificial Intelligence & Machine Learning**
-
-**Full-Stack Developer • AI & ML Enthusiast**
-
-### Connect With Me
-
-* 💼 [LinkedIn](https://www.linkedin.com/in/devaraja-katti-58136a2a1/)
-* 🐙 [GitHub](https://github.com/DevKatti7560)
+<p align="center">
+  <a href="https://www.linkedin.com/in/devaraja-katti-58136a2a1/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/DevKatti7560">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://innovation-entrepreneurship-git-554848-devaraja-kattis-projects.vercel.app">
+    <img src="https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 <p align="center">
 
-⭐ If you like this project, consider giving it a star!
+🌟 <b>Thank you for visiting this project!</b>
 
 <br><br>
 
-<b>Built with React, Node.js, Express & MongoDB</b>
+⭐ <b>If you like this project, consider giving it a star!</b>
+
+<br><br>
+
+🚀 <b>Built with React • Node.js • Express • MongoDB</b>
 
 </p>
